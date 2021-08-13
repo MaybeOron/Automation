@@ -10,9 +10,11 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your user name:");
+        System.out.println("~~~ Automation - connect to a moodle course ~~~");
+        System.out.println("~~~ Please enter your Moodle username and password.");
+        System.out.print("username: ");
         String userName = scanner.nextLine();
-        System.out.print("Enter your user password:");
+        System.out.print("Password: ");
         String password = scanner.nextLine();
 
         System.setProperty("webdriver.chrome.driver",
